@@ -103,6 +103,7 @@ padding: 40px 60px;
   .beige .contenu span{
    margin-top:20px;
    font-size: 20px;
+  
    
   }
   /*section 1 finis*/
@@ -149,8 +150,23 @@ padding: 40px 60px;
     .beige .contenu span{
      margin-top:20px;
      font-size: 20px;
-     
     }
+    .beige .different{
+      flex-direction: row;
+      align-items: center;
+    }
+    .beige .different img{
+      height: 100px;
+    }
+    .beige .contenu span{
+      margin-top:20px;
+      font-size:20px;
+    }
+
+
+    
+     
+    /* section 3 */
     .eclosion h1{
       background-color: #334d5c;
       margin: 15px auto;
@@ -168,7 +184,8 @@ padding: 40px 60px;
     
     }
     .sect-1 .image{
-      flex: 1;
+      display: flex;
+    
     
     }
     .sect-1 .contenu{
@@ -198,7 +215,35 @@ padding: 40px 60px;
        margin-top:20px;
        font-size: 20px;
        
+       
       }
+      /*FOOTER*/
+
+      footer{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding: 40px;
+        justify-content: space-around;
+        position: relative;
+
+      }
+       
+      footer .contenu .icones{
+        display: flex;
+        justify-content: center;
+      }
+      footer img{
+        width: 55px; height: 55px;
+        margin-right: 20px
+      }
+      footer span{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    
 
 
 
