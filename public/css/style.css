@@ -243,6 +243,51 @@ padding: 40px 60px;
         bottom: 10px;
         right: 10px;
     }
+    @media screen and (max-width:620px) {
+      header {
+        display: inline-block;
+        text-align: center;
+
+      }
+      header ul a{
+        display: none;
+      }
+      header .packs{
+        display: inline-block;
+      }
+      section:first-of-type{
+        flex-direction: column;
+        width: 100%;
+       
+      }
+      .eclosion h1{
+        display: inline-block;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+      
+      }
+      .sect-1{
+       
+        flex-direction: column;
+        text-align: center;
+       
+      }
+      .sect-1 .image{
+        height: 100px;
+        flex-direction: column;
+      }
+      .beige{
+        display: inline-block;
+      }
+      footer{
+        display: inline-block;
+      }
+
+
+
+      
+    }
     
 
 
